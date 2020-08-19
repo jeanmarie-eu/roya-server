@@ -12,5 +12,3 @@ RUN  cd ~ \
   && cd .. \
   && rm -r friendlyr-${BRANCH} \
   && rm friendlyr-${BRANCH}.tar.gz
-
-CMD ["R"]
